@@ -94,8 +94,8 @@ static const char *colorname[] = {
 	"yellow3",
 	"blue2",
 	"magenta3",
-	"cyan3",
-	"gray90",
+	"#5e8d87",
+	"E1E1E1",
 
 	/* 8 bright colors */
 	"gray50",
@@ -104,8 +104,8 @@ static const char *colorname[] = {
 	"yellow",
 	"#5c5cff",
 	"magenta",
-	"cyan",
-	"white",
+	"#8abeb7",
+	"#c5c8c6",
 
 	[255] = 0,
 
@@ -175,8 +175,8 @@ ResourcePref resources[] = {
 		{ "color13",      STRING,  &colorname[13] },
 		{ "color14",      STRING,  &colorname[14] },
 		{ "color15",      STRING,  &colorname[15] },
-		{ "background",   STRING,  &colorname[256] },
-		{ "foreground",   STRING,  &colorname[257] },
+		{ "foreground",   STRING,  &colorname[256] },
+		{ "background",   STRING,  &colorname[257] },
 		{ "cursorColor",  STRING,  &colorname[258] },
 		{ "termname",     STRING,  &termname },
 		{ "shell",        STRING,  &shell },
